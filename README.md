@@ -4,7 +4,7 @@ Public SDK v1 app bundles for the Talia extension store. The examples are `notes
 
 The data SDK v1 supports reads and inserts but no record updates or deletes; the task board states this limit in its UI. The CSV viewer reads only a bundled fixture and does not access the user's filesystem.
 
-Repository: https://github.com/Talia-orchestator/talia-apps
+Repository: https://github.com/Talia-Orchestrator/talia-apps
 
 Run npm test to validate the SDK manifests, CSV fixture parser, package licenses, and installable bundle artifacts. Pull requests use the same secrets-free check.
 
