@@ -1,0 +1,9 @@
+Talia includes software derived from Orkas.
+Copyright (c) 2026 Orkas contributors. MIT License.
+The original copyright and license are preserved in LICENSE and desktop/LICENSE.
+
+Talia-specific modifications and integration are contributed by the Talia contributors.
+Third-party license notices accompany their respective source and vendor directories.
+
+The source repositories do not contain personal profiles, credentials, installed dependencies,
+local release snapshots or QA artifacts. Resource packages retain their own licenses and provenance.

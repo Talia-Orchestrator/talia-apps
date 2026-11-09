@@ -1,0 +1,9 @@
+{
+  "id": "talia-apps/csv-viewer",
+  "kind": "app",
+  "version": "1.0.0",
+  "name": "CSV Viewer",
+  "description": "Open local CSV files, search rows, and sort columns without uploading your data.",
+  "publisher": "talia-apps",
+  "license": "MIT"
+}

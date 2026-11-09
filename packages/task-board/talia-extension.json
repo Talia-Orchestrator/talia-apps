@@ -1,0 +1,9 @@
+{
+  "id": "talia-apps/task-board",
+  "kind": "app",
+  "version": "1.0.0",
+  "name": "Task Board",
+  "description": "Create tasks and move them between To do, In progress, and Done.",
+  "publisher": "talia-apps",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "talia-apps/example-app",
+  "kind": "app",
+  "version": "1.0.0",
+  "name": "Example App",
+  "description": "Describe what the app does and what data it stores.",
+  "publisher": "talia-apps",
+  "license": "MIT"
+}

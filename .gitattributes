@@ -1,0 +1,15 @@
+# Byte testuali riproducibili anche sui runner Windows.
+* text=auto eol=lf
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.ico -text
+*.icns -text
+*.pdf -text
+*.zip -text
+*.gz -text
+*.wasm -text
+*.node -text
+*.woff -text
+*.woff2 -text

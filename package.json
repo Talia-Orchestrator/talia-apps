@@ -1,0 +1,10 @@
+{
+  "name": "talia-apps",
+  "version": "0.1.0",
+  "description": "Public Talia apps resource packages",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate-packages.cjs",
+    "test": "npm run validate && node --test tests/apps.test.cjs"
+  }
+}

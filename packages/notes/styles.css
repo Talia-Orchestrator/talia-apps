@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #20242b; background: #fafbfc; font: 16px/1.5 system-ui, sans-serif; }
+main { max-width: 1000px; margin: 2rem auto; padding: 0 1rem 2rem; }
+h1 { margin-bottom: .35rem; }
+label { display: block; margin: .8rem 0; font-weight: 600; }
+input, textarea, select, button { font: inherit; padding: .65rem; border: 1px solid #cbd2dc; border-radius: 7px; }
+input, textarea, select { display: block; width: 100%; margin-top: .3rem; background: white; }
+textarea { min-height: 6rem; resize: vertical; }
+button { cursor: pointer; background: #fff; }
+button[type="submit"] { color: white; background: #5145cd; border-color: #5145cd; }
+button:disabled { opacity: .6; cursor: wait; }
+:focus-visible { outline: 3px solid #857cff; outline-offset: 2px; }
+form, article { background: white; border: 1px solid #d7dce3; border-radius: 12px; padding: 1rem; margin: 1rem 0; }
+article h3 { margin: 0 0 .4rem; overflow-wrap: anywhere; }
+article p { white-space: pre-wrap; overflow-wrap: anywhere; }
+time, .hint { color: #5c6673; font-size: .9rem; }
+[role="status"] { min-height: 1.5rem; }
+[hidden] { display: none !important; }

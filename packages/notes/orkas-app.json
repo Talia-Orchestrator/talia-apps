@@ -1,0 +1,41 @@
+{
+  "sdkVersion": 1,
+  "capabilities": [
+    "data"
+  ],
+  "data": {
+    "version": 1,
+    "tables": [
+      {
+        "id": "notes",
+        "name": "notes",
+        "fields": [
+          {
+            "id": "title",
+            "name": "title",
+            "type": "string",
+            "required": true
+          },
+          {
+            "id": "body",
+            "name": "body",
+            "type": "string",
+            "required": true
+          }
+        ],
+        "access": {
+          "read": [
+            "title",
+            "body",
+            "createdAt"
+          ],
+          "insert": [
+            "title",
+            "body"
+          ],
+          "maxCount": 500
+        }
+      }
+    ]
+  }
+}

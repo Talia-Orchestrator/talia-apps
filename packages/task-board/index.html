@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Board</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="/__orkas/sdk.js"></script>
+  <script src="./task-board.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1 data-title>Task Board</h1>
+    <p data-intro>Add tasks and move them between To do, In progress, and Done.</p>
+    <form>
+      <label><span data-title-label>Task title</span><input name="title" required maxlength="120"></label>
+      <label><span data-details-label>Details</span><textarea name="details" maxlength="2000"></textarea></label>
+      <label><span data-status-label>Status</span><select name="status">
+        <option value="todo">To do</option><option value="doing">In progress</option><option value="done">Done</option>
+      </select></label>
+      <button type="submit" data-add>Add task</button>
+    </form>
+    <p role="status" aria-live="polite"></p>
+    <button type="button" data-retry-save hidden>Retry saving</button>
+    <button type="button" data-reload hidden>Retry loading</button>
+    <section class="columns" aria-label="Task board">
+      <div class="column"><h2 data-heading="todo">To do</h2><div data-column="todo"></div></div>
+      <div class="column"><h2 data-heading="doing">In progress</h2><div data-column="doing"></div></div>
+      <div class="column"><h2 data-heading="done">Done</h2><div data-column="done"></div></div>
+    </section>
+  </main>
+</body>
+</html>

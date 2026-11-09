@@ -1,0 +1,9 @@
+{
+  "id": "talia-apps/notes",
+  "kind": "app",
+  "version": "1.0.0",
+  "name": "Notes",
+  "description": "Create and browse private notes saved on your device.",
+  "publisher": "talia-apps",
+  "license": "MIT"
+}

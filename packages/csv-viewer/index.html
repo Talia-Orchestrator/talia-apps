@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSV Viewer</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="/__orkas/sdk.js"></script>
+  <script src="./csv-viewer.js" defer></script>
+  <script src="./viewer.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1 data-title>CSV Viewer</h1>
+    <p data-intro>Open a CSV file to search and sort it. Your file stays in this app on your device.</p>
+    <label><span data-file-label>Open CSV file</span><input data-file type="file" accept=".csv,text/csv"></label>
+    <p class="hint" data-limits>Up to 2 MB, 5,000 rows and 100 columns. Comma-separated UTF-8 files.</p>
+    <button type="button" data-example>Load example</button>
+    <label><span data-search-label>Search</span><input data-search type="search" autocomplete="off"></label>
+    <p class="hint" data-count aria-live="polite"></p>
+    <p role="status" aria-live="polite"></p>
+    <div class="table-scroll" data-table></div>
+  </main>
+</body>
+</html>

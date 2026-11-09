@@ -1,0 +1,73 @@
+{
+  "sdkVersion": 1,
+  "capabilities": [
+    "data"
+  ],
+  "data": {
+    "version": 1,
+    "tables": [
+      {
+        "id": "tasks",
+        "name": "tasks",
+        "fields": [
+          {
+            "id": "title",
+            "name": "title",
+            "type": "string",
+            "required": true
+          },
+          {
+            "id": "details",
+            "name": "details",
+            "type": "string",
+            "required": false
+          },
+          {
+            "id": "status",
+            "name": "status",
+            "type": "string",
+            "required": true,
+            "default": "todo"
+          },
+          {
+            "id": "taskId",
+            "name": "taskId",
+            "type": "string",
+            "required": false
+          },
+          {
+            "id": "revision",
+            "name": "revision",
+            "type": "integer",
+            "required": false
+          }
+        ],
+        "access": {
+          "read": [
+            "title",
+            "details",
+            "status",
+            "createdAt",
+            "id",
+            "taskId",
+            "revision"
+          ],
+          "insert": [
+            "title",
+            "details",
+            "status",
+            "taskId",
+            "revision"
+          ],
+          "maxCount": 1000
+        },
+        "indexes": [
+          [
+            "status",
+            "createdAt"
+          ]
+        ]
+      }
+    ]
+  }
+}

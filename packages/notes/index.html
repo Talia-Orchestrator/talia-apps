@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="/__orkas/sdk.js"></script>
+  <script src="./notes.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1 data-title>Notes</h1>
+    <p data-intro>Create a note and browse your saved notes.</p>
+    <form>
+      <label><span data-title-label>Title</span><input name="title" required maxlength="120"></label>
+      <label><span data-body-label>Note</span><textarea name="body" required maxlength="5000"></textarea></label>
+      <button type="submit" data-save>Save note</button>
+    </form>
+    <p role="status" aria-live="polite"></p>
+    <button type="button" data-reload hidden>Retry loading</button>
+    <section aria-labelledby="notes-heading">
+      <h2 id="notes-heading" data-list-heading>Saved notes</h2>
+      <div data-notes></div>
+    </section>
+  </main>
+</body>
+</html>
