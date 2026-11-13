@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "name": "CSV Viewer",
   "description": "Open local CSV files, search rows, and sort columns without uploading your data.",
+  "description_it": "Apri file CSV locali, cerca righe e ordina colonne senza caricare i tuoi dati.",
   "publisher": "talia-apps",
   "license": "MIT"
 }

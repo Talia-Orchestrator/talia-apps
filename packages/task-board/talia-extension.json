@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "name": "Task Board",
   "description": "Create tasks and move them between To do, In progress, and Done.",
+  "description_it": "Crea attività e spostale tra Da fare, In corso e Completate.",
   "publisher": "talia-apps",
   "license": "MIT"
 }
