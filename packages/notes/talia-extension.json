@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "name": "Notes",
   "description": "Create and browse private notes saved on your device.",
+  "description_it": "Crea e sfoglia note private salvate sul tuo dispositivo.",
   "publisher": "talia-apps",
   "license": "MIT"
 }
